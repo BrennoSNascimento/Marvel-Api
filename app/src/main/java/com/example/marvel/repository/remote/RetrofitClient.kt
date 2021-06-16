@@ -1,4 +1,4 @@
-package com.example.desafiomobilemarvel.service.repository.remote
+
 
 
 import com.example.marvel.constants.MarvelConstants
@@ -14,9 +14,9 @@ import java.util.concurrent.TimeUnit
 class RetrofitClient private constructor() {
 
     companion object {
-
+//seta a base url para a da api
         private const val baseUrl = "http://gateway.marvel.com/v1/public/"
-
+//instacia o retrofit e define funcionalidades
         private fun getRetrofitInstance(): Retrofit {
             return Retrofit.Builder()
                 .baseUrl(baseUrl)

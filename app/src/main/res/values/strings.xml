@@ -7,6 +7,10 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="ERROR_UNEXPECTED">Um erro inesperado ocorreu. Tente novamente mais tarde.</string>
+    <string name="ERROR_INTERNET_CONNECTION">Conexão à internet necessária para uso da applicação.</string>
+    <string name="msg_no_items">Não foi possível carregar os itens da lista. Por favor, tente novamente mais tarde</string>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
